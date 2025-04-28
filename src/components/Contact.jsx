@@ -38,18 +38,23 @@ const Contact = () => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 ,transition: { delay: 0.2, duration: 0.5 }}}
       viewport={{ once: true, amount: 0.5 }}
-     className='overflow-x-hidden contact min-h-screen w-full relative flex items-center justify-center flex-col gap-10 wrapper mt-2'>
-        <Title title="Are you Interested?" />
-        <div className='flex justify-between flex-col md:flex-row gap-10 w-full'>
+      className='contact min-h-screen flex items-center justify-center flex-col py-20 text-black mx-auto wrapper space-y-4 md:space-y-10 '>
+        
+      
+
+      
+
+      <Title title="Are you Interested?" />
+        <div className='flex justify-between flex-col md:flex-row gap-10 max-w-7xl w-full'>
 
         
 
           <div className='basis-[48%] flex flex-col gap-2 '>
-            <h2 className='text-4xl font-semibold inline-flex items-center gap-2'>Send us a message <img src={msg_icon} className='w-8'/></h2>
-            <p className='text-gray-500 max-w-[450px] text-xl'>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.</p>
-            <li className='inline-flex items-center gap-2 text-xl md:text-2xl'><img src={mail_icon} className='w-5' />oumajamesjoshua@gmail.com</li>
-            <li className='inline-flex items-center gap-2 text-xl md:text-2xl'><img src={phone_icon} className='w-5' />+491776999579</li>
-            <li className='inline-flex items-center gap-2 text-xl md:text-2xl'><img src={location_icon} className='w-5' />38458, Velpke</li>
+            <h2 className='text-2xl md:text-4xl font-semibold inline-flex items-center gap-2'>Send us a message <img src={msg_icon} className='w-8'/></h2>
+            <p className='text-gray-500 max-w-[450px] text-xl text-gray-500'>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.</p>
+            <li className='inline-flex items-center gap-2 md:text-2xl'><img src={mail_icon} className='w-5' />oumajamesjoshua@gmail.com</li>
+            <li className='inline-flex items-center gap-2 md:text-2xl'><img src={phone_icon} className='w-5' />+491776999579</li>
+            <li className='inline-flex items-center gap-2 md:text-2xl'><img src={location_icon} className='w-5' />38458, Velpke</li>
             
           </div>
 
@@ -75,6 +80,11 @@ const Contact = () => {
           
 
         </div>
+
+      
+
+      
+
     </motion.div>
   )
 }

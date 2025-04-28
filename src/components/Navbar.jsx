@@ -20,16 +20,16 @@ const Navbar = () => {
     },[])
   
     return (
-      <nav className={`w-full wrapper text-black bg-[rgba(255,255,255,0.2)] backdrop-blur-2xl flex items-center justify-between py-2 fixed top-0 left-0 z-10 ${sticky ? 'dark-nav' : '' }`}>
-        <h1 className="inline-flex items-center gap-2 md:gap-4 lg:text-2xl cursor-pointer text-[#F7374F]">
-          <PiStudentDuotone className='lg:text-2xl' />E-Learn.
+      <nav className={`w-full wrapper text-black bg-[#ffbf23] backdrop-blur-2xl flex items-center justify-between py-2 fixed top-0 left-0 z-10 ${sticky ? 'dark-nav' : '' }`}>
+        <h1 className="inline-flex items-center gap-2 md:gap-4 lg:text-2xl text-xl cursor-pointer text-black">
+          <PiStudentDuotone />E-Learn.
         </h1>
   
         <ul className="hidden md:flex md:items-center md:gap-4 xl:gap-8">
-          <Link to="hero" smooth={true} duration={500} className='cursor-pointer lg:text-xl'>Home</Link>
-          <Link to="classes" smooth={true} duration={500} offset={-40} className='cursor-pointer lg:text-xl'>Classes</Link>
-          <Link to="about" smooth={true} duration={500} offset={-40} className='cursor-pointer lg:text-xl'>About</Link>
-          <Link to="contact" smooth={true} duration={500} offset={-40} className='cursor-pointer lg:text-xl'>Contact</Link>
+          <Link to="hero" smooth={true} duration={500} className='cursor-pointer lg:text-xl hover:text-white'>Home</Link>
+          <Link to="classes" smooth={true} duration={500} offset={-40} className='cursor-pointer lg:text-xl hover:text-white'>Classes</Link>
+          <Link to="about" smooth={true} duration={500} offset={-40} className='cursor-pointer lg:text-xl hover:text-white'>About</Link>
+          <Link to="contact" smooth={true} duration={500} offset={-40} className='cursor-pointer lg:text-xl hover:text-white'>Contact</Link>
           <Link to="classes" smooth={true} duration={500} offset={-40} className='cursor-pointer lg:text-xl'><motion.button
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
