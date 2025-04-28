@@ -38,7 +38,11 @@ const Classes = () => {
         }
     ]
   return (
-    <div className='hero min-h-screen flex items-center justify-center wrapper py-20 classes flex-col space-y-4 md:space-y-10 mx-auto'>
+    <motion.div
+    initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0 ,transition: { delay: 0.2, duration: 0.5 }}}
+    viewport={{ once: false, amount: 0.5 }}
+     className='hero min-h-screen flex items-center justify-center wrapper py-20 classes flex-col space-y-4 md:space-y-10 mx-auto'>
       
       
 
@@ -72,7 +76,7 @@ const Classes = () => {
   
        
 
-    </div>
+    </motion.div>
   )
 }
 
