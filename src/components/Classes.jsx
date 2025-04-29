@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaCheck } from "react-icons/fa";
 import Title from './Title';
+import { motion } from 'framer-motion'
 const Classes = () => {
     const courses = [
         {
@@ -50,13 +51,13 @@ const Classes = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl'>
             {courses.map((course) => (
-                <div key={course.id} className={`course active-${course.id} border-2 cursor-pointer border-black hover:border-[#ffbf23] p-4 rounded-2xl `}>
+                <div key={course.id} className={`course active-${course.id} border-2 cursor-pointer border-black hover:border-[#ffbf23] p-4 rounded-2xl relative`}>
                     <div className='mb-2'>
                         <h3 className='text-xl font-semibold'>{course.title}</h3>
                         <span className='text-2xl font-bold'>${course.price} <span className='text-gray-500 font-light text-xl'>/month</span></span>
                     </div>
 
-                    <ul className='mb-6'>
+                    <ul className='mb-6 flex flex-col'>
                         <p className='font-semibold mb-4 text-[#ffbf23]'>Includes:</p>
                         {course.features.map((feature, index) => (
                             <li className='inline-flex items-center gap-4 text-wrap' key={index}><FaCheck />{feature}</li>

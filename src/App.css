@@ -37,15 +37,7 @@ input, textarea {
   margin-bottom: 20px ;
 }
 
-.list_items::before {
-  content: '\f00c';
-  font-weight: 900;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%) translate;
-  color: #ffbf23;
-}
+
 
 @media (max-width: 768px) {
   .wrapper {

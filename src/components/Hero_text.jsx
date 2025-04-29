@@ -13,7 +13,7 @@ const Hero_text = () => {
           <h2 className=' text-4xl md:text-6xl max-w-100 text-wrap'>With the Right Teacher, Great Things Happen </h2>
         </div>
         <div className='basis-1/2'>
-          <p className='md:text-3xl max-w-100 text-wrap px-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas non ipsum, fugiat dicta nemo qui temporibus quae sapiente nam ratione magni, quia delectus soluta incidunt commodi id sunt alias possimus.</p>
+        <p className='md:text-2xl max-w-100 text-wrap px-2'>Achieve your goals and discover your potential with our inspiring teachers and supportive community. Guiding and supporting you through the journey of learning, speaking and living in Germany. Join us and thrive!</p>
         </div>
 
       </div>

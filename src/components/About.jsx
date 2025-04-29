@@ -21,8 +21,8 @@ const About = () => {
         <div 
           
         className='basis-1/2'>
-              <h1 className=' text-3xl md:text-5xl font-bold text-wrap max-w-120'>Don't know where to start? We can help.</h1>
-              <p className='max-w-100 text-wrap mt-4 text-gray-500'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem doloremque quidem repudiandae culpa modi odit hic totam, ex vel obcaecati sed quos in voluptate, maiores nisi laudantium assumenda repellendus.</p>        
+              <h1 className=' text-3xl md:text-5xl font-bold text-wrap max-w-120'>Struggling to learn and find work balance? We can help.</h1>
+              <p className='max-w-100 text-wrap mt-4 text-gray-500'>Learning german can be difficult. Finding work life balance while still learning german is even much more difficult. Our goal is to find the best learning method that's perfect to your needs. Achieving your goals and leveling up in the process.</p>        
 
           </div>
 

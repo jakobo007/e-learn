@@ -1,6 +1,5 @@
 import React from 'react'
 import home from '../assets/home.jpg'
-import Hero_text from './Hero_text'
 import { Link } from 'react-scroll'
 import {motion} from 'framer-motion'
 const Hero = () => {
