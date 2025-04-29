@@ -5,6 +5,7 @@ import { FaBars } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
+import favicon from '../assets/favicon.png'
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
   
@@ -22,7 +23,7 @@ const Navbar = () => {
     return (
       <nav className={`w-full wrapper text-black bg-[#ffbf23] backdrop-blur-2xl flex items-center justify-between py-2 fixed top-0 left-0 z-10 ${sticky ? 'dark-nav' : '' }`}>
         <h1 className="inline-flex items-center gap-2 md:gap-4 lg:text-2xl text-xl cursor-pointer text-black">
-          <PiStudentDuotone />E-Learn.
+          <img src={favicon} alt="" />E-Learn.
         </h1>
   
         <ul className="hidden md:flex md:items-center md:gap-4 xl:gap-8">
