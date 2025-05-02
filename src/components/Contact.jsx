@@ -52,8 +52,8 @@ const Contact = () => {
           <div className='basis-[48%] flex flex-col gap-2 '>
             <h2 className='text-xl md:text-2xl font-semibold inline-flex items-center gap-2'>Send us a message <img src={msg_icon} className='w-8'/></h2>
             <p className='text-gray-500 max-w-[450px] md:text-xl'>Feel free to reach out through  the contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.</p>
-            <li className='inline-flex items-center gap-2 md:text-2xl'><img src={mail_icon} className='w-5' />oumajamesjoshua@gmail.com</li>
-            <li className='inline-flex items-center gap-2 md:text-2xl'><img src={phone_icon} className='w-5' />+491776999579</li>
+            <li className='inline-flex items-center gap-2 md:text-2xl'><img src={mail_icon} className='w-5' />example@gmail.com</li>
+            <li className='inline-flex items-center gap-2 md:text-2xl'><img src={phone_icon} className='w-5' />+0123456789</li>
             <li className='inline-flex items-center gap-2 md:text-2xl'><img src={location_icon} className='w-5' />38458, Velpke</li>
             
           </div>
