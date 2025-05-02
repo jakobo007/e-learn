@@ -50,10 +50,10 @@ const Navbar = () => {
           } transition-transform duration-300 ease-in-out md:hidden`}
         >
           <ul className="flex flex-col gap-6 pt-6 cursor-pointer">
-          <Link to="hero" smooth={true} duration={500} offset={-40} className='cursor-pointer lg:text-xl'>Home</Link>
-          <Link to="classes" smooth={true} duration={500} offset={-40} className='cursor-pointer lg:text-xl'>Classes</Link>
-          <Link to="about" smooth={true} duration={500} offset={-30} className='cursor-pointer lg:text-xl'>About</Link>
-          <Link to="contact" smooth={true} duration={500} offset={-60} className='cursor-pointer lg:text-xl'>Contact</Link>
+          <Link to="hero" smooth={true} duration={500}  className='cursor-pointer lg:text-xl'>Home</Link>
+          <Link to="classes" smooth={true} duration={500}  className='cursor-pointer lg:text-xl'>Classes</Link>
+          <Link to="about" smooth={true} duration={500}  className='cursor-pointer lg:text-xl'>About</Link>
+          <Link to="contact" smooth={true} duration={500}  className='cursor-pointer lg:text-xl'>Contact</Link>
           
             
           </ul>

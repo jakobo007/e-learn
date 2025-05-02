@@ -10,7 +10,7 @@ const Hero = () => {
       viewport={{ once: false, amount: 0.5 }}
     >
       
-      <div className='hero min-h-screen flex items-center justify-center relative wrapper py-20'>
+      <div className='hero min-h-screen flex items-center justify-center relative wrapper py-20 mx-auto'>
 
 
         <div className='flex items-center flex-col md:flex-row justify-center max-w-7xl'>

@@ -38,7 +38,7 @@ const Contact = () => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 ,transition: { delay: 0.2, duration: 0.5 }}}
       viewport={{ once: true, amount: 0.5 }}
-      className='contact min-h-screen flex items-center justify-center flex-col py-20 text-black mx-auto wrapper space-y-4 md:space-y-10 '>
+      className='contact min-h-screen flex items-center justify-center flex-col py-20 text-black mx-auto wrapper space-y-4  '>
         
       
 
@@ -50,7 +50,7 @@ const Contact = () => {
         
 
           <div className='basis-[48%] flex flex-col gap-2 '>
-            <h2 className='text-2xl md:text-4xl font-semibold inline-flex items-center gap-2'>Send us a message <img src={msg_icon} className='w-8'/></h2>
+            <h2 className='text-xl md:text-2xl font-semibold inline-flex items-center gap-2'>Send us a message <img src={msg_icon} className='w-8'/></h2>
             <p className='text-gray-500 max-w-[450px] md:text-xl'>Feel free to reach out through  the contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.</p>
             <li className='inline-flex items-center gap-2 md:text-2xl'><img src={mail_icon} className='w-5' />oumajamesjoshua@gmail.com</li>
             <li className='inline-flex items-center gap-2 md:text-2xl'><img src={phone_icon} className='w-5' />+491776999579</li>
