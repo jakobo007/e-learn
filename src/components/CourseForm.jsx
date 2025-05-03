@@ -34,11 +34,11 @@ const CourseForm = ({ onFormSubmit }) => {
 
 
   return (
-    <div className='contact min-h-screen flex items-center justify-center flex-col py-20 text-black mx-auto wrapper space-y-10'>
+    <div className='contact flex gap-10 p-2 md:p-5 flex-col'>
 
       <Title title="Registration Form" />
 
-      <div className='flex justify-between flex-col-reverse md:flex-row gap-10 max-w-7xl w-full'>
+      <div className='flex justify-between flex-col-reverse md:flex-row-reverse gap-10 max-w-7xl w-full'>
 
         <div className='basis-1/2 max-w-100'>
 
