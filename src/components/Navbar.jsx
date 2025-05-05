@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useState, useRef } from 'react'; // Import useRef
+import { useState, useRef } from 'react';
 import { PiStudentDuotone } from "react-icons/pi";
 import { FaBars } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
