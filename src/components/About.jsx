@@ -7,7 +7,7 @@ const About = () => {
     <motion.div 
     initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 ,transition: { delay: 0.2, duration: 0.5 }}}
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={{ once: false, amount: 0.2 }}
 
     className='about min-h-screen flex items-center justify-center py-20 text-black mx-auto wrapper'
     >

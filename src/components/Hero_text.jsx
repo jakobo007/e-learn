@@ -5,7 +5,7 @@ const Hero_text = () => {
     <motion.div 
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 ,transition: { delay: 0.2, duration: 0.5 }}}
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={{ once: false, amount: 0.2 }}
     className='hero_text min-h-screen flex items-center justify-center py-20 bg-[#ffbf23] text-black mx-auto wrapper'>
       <div className='flex items-center flex-col md:flex-row justify-center max-w-7xl gap-5 md:gap-60'>
 

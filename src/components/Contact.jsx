@@ -37,7 +37,7 @@ const Contact = () => {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 ,transition: { delay: 0.2, duration: 0.5 }}}
-      viewport={{ once: true, amount: 0.5 }}
+      viewport={{ once: true, amount: 0.2 }}
       className='contact min-h-screen flex items-center justify-center flex-col py-20 text-black mx-auto wrapper space-y-4  '>
         
       
