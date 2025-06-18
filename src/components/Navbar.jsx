@@ -28,7 +28,7 @@ const Navbar = () => {
                 </button>
 
                 <div className={`w-full h-screen flex flex-col items-center justify-center gap-8 font-medium text-lg absolute cursor-pointer top-16 bg-black text-white transition-all ease-in-out ${isOpen ? 'right-0' : 'right-[100%]'}`}>
-                    <Link to='/' onClick={() => setIsOpen(false)}>Home</Link>
+                    <Link to='/e-learn' onClick={() => setIsOpen(false)}>Home</Link>
                     <Link to='/courses' onClick={() => setIsOpen(false)}>Courses</Link>
                     <Link to='/about' onClick={() => setIsOpen(false)}>About Us</Link>
                     <Link to='/contact' onClick={() => setIsOpen(false)}>Contact Us</Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 {/* Desktop Section */}
 
                 <div className='hidden md:flex items-center gap-8 xl:gap-12 font-medium cursor-pointer'>
-                    <Link to='/' onClick={() => setIsOpen(false)}>Home</Link>
+                    <Link to='/e-learn' onClick={() => setIsOpen(false)}>Home</Link>
                     <Link to='/courses' onClick={() => setIsOpen(false)}>Courses</Link>
                     <Link to='/about' onClick={() => setIsOpen(false)}>About Us</Link>
                     <Link to='/contact' onClick={() => setIsOpen(false)}>Contact Us</Link>
