@@ -33,23 +33,23 @@ const router = createBrowserRouter([
         element: <Homepage />
       },
       {
-        path: '/courses',
+        path: '/e-learn/courses',
         element: <Courses />
       },
       {
-        path: '/about',
+        path: '/e-learn/about',
         element: <About />
       },
       {
-        path: '/login',
+        path: '/e-learn/login',
         element: <Login />
       },
       {
-        path: '/contact',
+        path: '/e-learn/contact',
         element: <Contact />
       },
       {
-        path: '/register',
+        path: '/e-learn/register',
         element: <Register />
       },
       {},
