@@ -8,7 +8,7 @@ import image2 from '../assets/image6.jpg';
 const About = () => {
   return (
     
-    <div className='w-full h-screen mx-auto max-w-7xl flex flex-col items-center justify-center gap-5 md:gap-10'>
+    <div className='w-full mx-auto max-w-7xl flex flex-col items-center justify-center gap-5 md:gap-10'>
       <Title subTitle='About Us'  />
 
       <div className='flex flex-col items-center md:flex-row gap-5 md:gap-10'>

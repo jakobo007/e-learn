@@ -29,27 +29,31 @@ const router = createBrowserRouter([
     element: <MainLayout />,
     children: [
       {
-        path: '/e-learn',
+        path: '/',
         element: <Homepage />
       },
       {
-        path: '/e-learn/courses',
+        path: '/courses',
         element: <Courses />
       },
       {
-        path: '/e-learn/about',
+        path: '/courses',
+        element: <Courses />
+      },
+      {
+        path: '/about',
         element: <About />
       },
       {
-        path: '/e-learn/login',
+        path: '/login',
         element: <Login />
       },
       {
-        path: '/e-learn/contact',
+        path: '/contact',
         element: <Contact />
       },
       {
-        path: '/e-learn/register',
+        path: '/register',
         element: <Register />
       },
       {},
