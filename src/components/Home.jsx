@@ -36,7 +36,7 @@ const Home = () => {
           </li>
         </ul>
 
-        <Link to='/courses'>
+        <Link to='/e-learn/courses'>
         <button className='px-3 py-4 bg-black text-white rounded-full justify-self-start text-sm md:text-lg cursor-pointer'>Start Now</button>
         </Link>
       </div>
